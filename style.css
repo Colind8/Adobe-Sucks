@@ -1,0 +1,112 @@
+body {
+	text-align: center;
+	background-color: #111111;
+	margin-left: 0;
+	margin-right: 0;
+	color: #dddddd;
+	font-family: sans-serif;
+}
+
+h1 {
+	font-size: 10vw;
+}
+
+h2 {
+	font-size: 2em;
+}
+
+p {
+	font-size: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+}
+
+nav {
+	margin-top: 1rem;
+	margin-left: 1rem;
+	margin-right: 1rem;
+	margin-bottom: 1rem;
+}
+
+a {
+	text-decoration-line: none;
+	color: inherit;
+}
+
+.app {
+	margin: 0.5rem;
+	border: 0.25rem gray solid;
+	width: 5rem;
+	height: 5rem;
+	font-size: 3.5rem;
+	vertical-align: middle;
+	padding: 0px;
+	border-radius: 1rem;
+	display: inline-flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+	cursor: pointer;
+}
+
+.app:hover {
+	border: 0.25rem lightgray solid;
+}
+
+span {
+	display: inline-block;
+	vertical-align: middle;
+	line-height: normal;
+}
+
+section {
+	border-top: gray solid 0.25rem;
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.altapp {
+	display: inline-block;
+	vertical-align: top;
+	width: 10rem;
+	/*border: 0.25rem gray solid;*/
+}
+.altapp_points {
+	text-align: left;
+}
+/*.altapp:hover {
+	border: lightgray 0.3rem solid;
+}*/
+
+img {
+	/*width: 100%;*/
+	display: block;
+	height: 10rem;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
+.photoshop {
+	color: #00C8FF;
+	background-color: #001D26;
+}
+
+.premiere {
+	color: #EB78FF;
+	background-color: #250031;
+}
+
+.illustrator {
+	color: #FF7D00;
+	background-color: #210B00;
+}
+
+.animate {
+	color: #FF4912;
+	background-color: #210100;
+}
+
+.aftereffects {
+	color: #D392FF;
+	background-color: #19003E;
+}
